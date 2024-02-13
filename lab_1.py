@@ -1,10 +1,11 @@
 from IPython import display
-display.Image("./krefter.png", width=400)
-
-
 import matplotlib.pyplot as plt
 import numpy as np
 from scipy.interpolate import CubicSpline
+display.Image("krefter.png", width=400)
+
+print("her")
+
 
 #Tallverdier. Tryggest med SI-enheter fra start til mål!
 M = 0.031    #kg
@@ -100,3 +101,9 @@ print('Helningsvinkel i startposisjonen (grader): %4.1f' %startvinkel)
 print('Banens maksimale helningsvinkel (grader): %4.1f' %maksvinkel)
 print('De 8 festepunkthøydene (m):', yfast)
 
+
+#Numerisk beregning og plotting av de fysiske størrelsene v(x), N(x), f(x), f/N|, v(t), Epot(x), Ekin(x), Etot(x)
+
+
+
+#Utskrift av rulletid, sluttfart, total mekanisk energi
